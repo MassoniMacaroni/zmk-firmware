@@ -67,8 +67,8 @@ text.footer {
     paint-order: stroke;
 }
 
-/* styling for combo tap, and key non-tap label text */
-text.combo, text.hold, text.shifted, text.left, text.right {
+/* styling for combo tap, and key hold/shifted label text */
+text.combo, text.hold, text.shifted {
     font-size: 11px;
 }
 
@@ -82,20 +82,12 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
-text.left {
-    text-anchor: start;
-}
-
-text.right {
-    text-anchor: end;
-}
-
 text.layer-activator {
     text-decoration: underline;
 }
 
 /* styling for hold/shifted label text in combo box */
-text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
+text.combo.hold, text.combo.shifted {
     font-size: 8px;
 }
 
